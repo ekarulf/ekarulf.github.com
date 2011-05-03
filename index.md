@@ -13,8 +13,7 @@ Writing
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed felis metus. Ut venenatis tincidunt justo vitae pharetra. 
 
 {% for post in site.posts %}
- * {{ post.date | date_to_string }} &raquo; [{{ post.title }}]({{ post.url }})
-{% endfor %}
+ * {{ post.date | date_to_string }} &raquo; [{{ post.title }}]({{ post.url }}){% endfor %}
 
 Software
 --------
